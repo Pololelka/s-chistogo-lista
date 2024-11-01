@@ -58,7 +58,7 @@ body {
 }
 
 .header__menu-item .header__menu-link {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid currentColor;
 }
 
 .header__menu-item_active .header__menu-link {
@@ -102,11 +102,13 @@ body {
 
 .intro__heading {
   display: flex;
+  color: #CCC;
 }
 
 .intro__title {
   font-weight: 400;
   line-height: 1.15;
+  font-size: 16px;
 }
 
 .intro__date {
@@ -196,6 +198,7 @@ body {
 
 .card__author-photo {
   width: 100px;
+  border-radius: 50%;
 }
 
 .card__author-name {
@@ -233,6 +236,7 @@ footer {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  border-top: 2px solid #FEE42A;
 }
 
 .footer__links {
